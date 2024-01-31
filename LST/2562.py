@@ -1,14 +1,7 @@
-word = input().upper()
-count = {}
-for char in word :
-    if char in count :
-        count[char] += 1
-    else :
-        count[char] = 1
-maxkey = max(count, key = count.get)
-maxvalue = count[maxkey]
-count.pop(maxkey)
-if maxvalue in count.values():
-    print("?")
-else :
-    print(maxkey)
+Numbers = []
+for i in range(9) :
+    i = int(input())
+    Numbers.append(i)
+print(max(Numbers))
+print(Numbers.index(max(Numbers)) + 1)
+    #3
