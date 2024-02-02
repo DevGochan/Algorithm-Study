@@ -12,3 +12,11 @@ if cnt.count(max(cnt)) > 1:  # cnt내의 최대값이 2 이상일 때
 
 else:
     print(string_set[cnt.index(max(cnt))])
+
+
+
+# Mississipi -> MISSISSIPI -> MISP
+# cnt = 1, 4, 4, 1
+    
+# zZa -> ZZA -> ZA
+# cnt = 2, 1
