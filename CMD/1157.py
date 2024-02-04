@@ -9,9 +9,13 @@ for char in word:
             char_count[char] = 1
 
 max_count = max(char_count.values())  # 가장 많이 사용된 알파벳의 개수
-
+print(char_count.items(), max_count)
+ 
 # 가장 많이 사용된 알파벳들을 찾음
 most_used_chars = [char for char, count in char_count.items() if count == max_count]
+
+print(most_used_chars)
+print(len(most_used_chars))
 
 if len(most_used_chars) == 1:
     print(most_used_chars[0])
