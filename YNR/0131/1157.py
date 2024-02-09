@@ -12,7 +12,7 @@ for i in wrd_list:  # wrd_list에 입력된 문자가 몇개 있는지
     count = wrd.count(i)
     temp.append(count)  # 입력된 문자를 temp에 추가 
 
-if temp.count(max(temp)) >= 2: # 같은 수의 문자(2개)가 존재할 경우 ? 출력
+if temp.count(max(temp)) > 1: # 같은 수의 문자(2개)가 존재할 경우 ? 출력
     print("?")
 else: # 대문자로 가장 많은 문자를 출력
     print(wrd_list[(temp.index(max(temp)))].upper())
