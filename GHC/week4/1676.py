@@ -1,7 +1,5 @@
 import math
-
 count = 0
-
 n = int(input())
 n_fac = list(str(math.factorial(n)))
 
