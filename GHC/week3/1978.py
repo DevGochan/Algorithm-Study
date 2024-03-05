@@ -1,7 +1,7 @@
 n = int(input())
 score = 0
 
-nums = list(map(int,(input().split())))
+nums = map(int,(input().split()))
 
 for num in nums :
     comNum = 0
