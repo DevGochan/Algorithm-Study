@@ -7,7 +7,6 @@ T = int(input())    # 테스트 케이스 입력 받음
 for i in range(T):
     R, S = input().split() # R, S 값을 입력 받음
     R = int(R) # R을 int로 형변환
-    S = str(S)  # S를 문자열로 형변환
     for i in range(len(S)): # s의 길이 내에서
         print(R*S[i] ,end='') # 문자열의 인덱스 * R의 개수, end는 공백을 없애기 위해서. 
     print()
