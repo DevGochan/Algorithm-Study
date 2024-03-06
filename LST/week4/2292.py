@@ -1,7 +1,6 @@
 N = int(input())
 a = 1
 b = 6
-c = 1
 M = 1
 if N == 1 :
     print(M)
