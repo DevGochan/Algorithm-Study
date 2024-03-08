@@ -1,12 +1,12 @@
-N, M = map(int, input.split())
-sum = []
-nums = list(map(int, input.split()))
-for i in range(len(nums)-2) :
-    for j in range(i+1, len(nums)-1) :
-        for z in range(j+1, len(nums)) :
-            Msum = nums[i] + nums[j] + num[z]
-            if sum > M :
+N, M = map(int, input().split())
+lst = list(map(int, input().split()))
+nlst = []
+for i in range(N-2):
+    for j in range(i+1, N-1):
+        for k in range(j+1, N):
+            three =  lst[i] + lst[j] + lst[k]
+            if three > M:
                 continue
-            else :
-                sum.append(Msum)
-print(max(sum))
+            else:
+                nlst.append(three)
+print(max(nlst))
