@@ -19,4 +19,4 @@
 
 a,b,v = map(int,input().split())
 k = (v-b)/(a-b)
-print(int(k) if k == int(k) else int(k)+1) # 삼항연산자
+print(int(k) if k == int(k) else int(k)+1) # 삼항연산자  참일때실행 if 조건문 else 거짓일때실행
