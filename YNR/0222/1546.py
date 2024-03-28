@@ -7,6 +7,7 @@ subject = int(input())
 scores = list(map(int, input().split())) # map()함수로 점수를 list화 
 M = max(scores)
 for i in range(subject):
-    scores[i] = scores[i] / M + 100
+    scores[i] = scores[i] / M * 100
+    sum = sum + scores[i]
 
 print(sum(scores)/subject)
